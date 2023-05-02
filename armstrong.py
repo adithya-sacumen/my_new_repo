@@ -8,4 +8,4 @@ def armstrong(n):
     return f'{n} is an Armstrong number.' if sum == n else f'{n} is not an Armstrong number.'
 
 if __name__ == '__main__':
-    print(armstrong(13))
+    print(armstrong(153))
