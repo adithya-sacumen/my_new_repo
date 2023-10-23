@@ -1,0 +1,16 @@
+source:
+- title: pull data form forge stone
+  description: pull user data from forge stone
+  uri: /users
+  method: get
+  is_pagination: 'True'
+  pagination_type: cursor
+  pagination: '{"next_key":"next_cursor","events_key":"test_key","sort":"asc","date_key":"updated"}'
+destination:
+- title: push data to ibm
+  description: push user data to ibm
+  uri: /users
+  method: post
+  is_pagination: 'True'
+  pagination_type: cursor
+  pagination: '{"next_key":"next_cursor","events_key":"test_key","sort":"asc","date_key":"updated"}'

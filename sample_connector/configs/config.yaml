@@ -1,0 +1,14 @@
+source:
+  title: ibm
+  description: ''
+  base_url: http://ibm.com
+  auth_type: basic
+  auth_details: ''
+  status: active
+destination:
+  title: forge stone
+  description: ''
+  base_url: http://forgestone.com
+  auth_type: basic
+  auth_details: ''
+  status: active
